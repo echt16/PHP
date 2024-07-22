@@ -102,7 +102,6 @@ function analyzeNumber($number): array
     $maxDigit = max($digits);
     $minDigit = min($digits);
 
-    // Считаем сумму цифр
     $sum = array_sum($digits);
 
     $average = $sum / $count;
