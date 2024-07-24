@@ -90,6 +90,7 @@ function randomColor(): string
     return $color;
 }
 
+
 function printChessBoard($row, $col, $figureImgSrc): void
 {
     $html = '
