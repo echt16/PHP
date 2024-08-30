@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<users>
+    <user>
+        <date>30/08/2024</date>
+        <name>12</name>
+        <login>12</login>
+        <password>12</password>
+    </user>
+    <user>
+        <date>30/08/2024</date>
+        <name>as</name>
+        <login>as</login>
+        <password>as</password>
+    </user>
+    <user>
+        <date>30/08/2024</date>
+        <name>as</name>
+        <login>as</login>
+        <password>as</password>
+    </user>
+    <user>
+        <date>30/08/2024</date>
+        <name>as</name>
+        <login>as</login>
+        <password>as</password>
+    </user>
+</users>
