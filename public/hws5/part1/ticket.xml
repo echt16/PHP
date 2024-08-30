@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<ticket>
+    <date>30-08-2024</date>
+    <items>
+        <item name="1">
+            <count>2</count>
+            <price>3</price>
+            <total>6</total>
+        </item>
+        <item name="4">
+            <count>4</count>
+            <price>4</price>
+            <total>16</total>
+        </item>
+        <item name="5">
+            <count>5</count>
+            <price>5</price>
+            <total>25</total>
+        </item>
+        <item name="1">
+            <count>1</count>
+            <price>1</price>
+            <total>1</total>
+        </item>
+        <item name="2">
+            <count>2</count>
+            <price>2</price>
+            <total>4</total>
+        </item>
+        <item name="3">
+            <count>3</count>
+            <price>3</price>
+            <total>9</total>
+        </item>
+        <item name="2">
+            <count>2</count>
+            <price>2</price>
+            <total>4</total>
+        </item>
+        <item name="1">
+            <count>2</count>
+            <price>3</price>
+            <total>6</total>
+        </item>
+        <item name="4">
+            <count>4</count>
+            <price>4</price>
+            <total>16</total>
+        </item>
+        <item name="5">
+            <count>5</count>
+            <price>5</price>
+            <total>25</total>
+        </item>
+        <item name="1">
+            <count>1</count>
+            <price>1</price>
+            <total>1</total>
+        </item>
+        <item name="2">
+            <count>2</count>
+            <price>2</price>
+            <total>4</total>
+        </item>
+        <item name="3">
+            <count>3</count>
+            <price>3</price>
+            <total>9</total>
+        </item>
+        <item name="2">
+            <count>2</count>
+            <price>2</price>
+            <total>4</total>
+        </item>
+        <item name="6">
+            <count>6</count>
+            <price>6</price>
+            <total>36</total>
+        </item>
+        <item name="6">
+            <count>6</count>
+            <price>6</price>
+            <total>36</total>
+        </item>
+        <item name="6">
+            <count>6</count>
+            <price>6</price>
+            <total>36</total>
+        </item>
+        <item name="1">
+            <count>2</count>
+            <price>3</price>
+            <total>6</total>
+        </item>
+        <item name="4">
+            <count>4</count>
+            <price>4</price>
+            <total>16</total>
+        </item>
+        <item name="5">
+            <count>5</count>
+            <price>5</price>
+            <total>25</total>
+        </item>
+        <item name="1">
+            <count>1</count>
+            <price>1</price>
+            <total>1</total>
+        </item>
+        <item name="2">
+            <count>2</count>
+            <price>2</price>
+            <total>4</total>
+        </item>
+        <item name="3">
+            <count>3</count>
+            <price>3</price>
+            <total>9</total>
+        </item>
+        <item name="2">
+            <count>2</count>
+            <price>2</price>
+            <total>4</total>
+        </item>
+        <item name="6">
+            <count>6</count>
+            <price>6</price>
+            <total>36</total>
+        </item>
+        <item name="6">
+            <count>6</count>
+            <price>6</price>
+            <total>36</total>
+        </item>
+        <item name="6">
+            <count>6</count>
+            <price>6</price>
+            <total>36</total>
+        </item>
+        <item name="6">
+            <count>6</count>
+            <price>6</price>
+            <total>36</total>
+        </item>
+        <item name="6">
+            <count>6</count>
+            <price>6</price>
+            <total>36</total>
+        </item>
+        <item name="6">
+            <count>6</count>
+            <price>6</price>
+            <total>36</total>
+        </item>
+    <item name="1"><count>2</count><price>3</price><total>6</total></item><item name="4"><count>4</count><price>4</price><total>16</total></item><item name="5"><count>5</count><price>5</price><total>25</total></item><item name="1"><count>1</count><price>1</price><total>1</total></item><item name="2"><count>2</count><price>2</price><total>4</total></item><item name="3"><count>3</count><price>3</price><total>9</total></item><item name="2"><count>2</count><price>2</price><total>4</total></item><item name="6"><count>6</count><price>6</price><total>36</total></item><item name="6"><count>6</count><price>6</price><total>36</total></item><item name="6"><count>6</count><price>6</price><total>36</total></item><item name="6"><count>6</count><price>6</price><total>36</total></item><item name="6"><count>6</count><price>6</price><total>36</total></item><item name="6"><count>6</count><price>6</price><total>36</total></item></items>
+</ticket>
