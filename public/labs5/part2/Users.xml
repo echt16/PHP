@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<users>
+    <user name="allo4">
+        <password>12</password>
+        <messages>
+            <message date="2024-09-01">34</message>
+            <message date="2024-09-01">34</message>
+        </messages>
+    </user>
+    <user name="allo5">
+        <password>5</password>
+    </user>
+</users>
