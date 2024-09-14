@@ -82,7 +82,7 @@ echo "<h1>EX6</h1>";
 session_start();
 $session_id = 0;
 if ($session_id == 0) {
-    echo '<form method="post" action="login.php">
+    echo '<form method="post" action="register.php">
             <label for="username">Логін:</label><br>
             <input type="text" id="username" name="username"><br>
             <label for="password">Пароль:</label><br>

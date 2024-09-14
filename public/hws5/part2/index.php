@@ -1,39 +1,20 @@
 <?php
 session_start();
 
-function array_sort($array, $on, $order = SORT_ASC)
+function printUsers()
 {
-    $new_array = array();
-    $sortable_array = array();
-
-    if (count($array) > 0) {
-        foreach ($array as $k => $v) {
-            if (is_array($v)) {
-                foreach ($v as $k2 => $v2) {
-                    if ($k2 == $on) {
-                        $sortable_array[$k] = $v2;
-                    }
-                }
-            } else {
-                $sortable_array[$k] = $v;
-            }
-        }
-
-        switch ($order) {
-            case SORT_ASC:
-                asort($sortable_array);
-                break;
-            case SORT_DESC:
-                arsort($sortable_array);
-                break;
-        }
-
-        foreach ($sortable_array as $k => $v) {
-            $new_array[$k] = $array[$k];
-        }
+    $code = '<div style="display: flex; flex-direction:column;padding: 0 20px;">';
+    $xml = simplexml_load_file("Users.xml");
+    foreach ($xml as $user) {
+        $code .= "
+            <div style='display: flex; justify-content: space-between; align-items: center; height: 40px; border-bottom: 1px solid gray;'>
+            <div>{$user->attributes()['name']}</div>
+            <button class='btn btn-primary'>Start private</button>
+</div>
+        ";
     }
-
-    return $new_array;
+    $code .= '</div>';
+    $xml->saveXML('Users.xml');
 }
 
 $isButtonEnabled = false;

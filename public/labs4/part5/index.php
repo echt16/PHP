@@ -7,6 +7,6 @@
     $menu->addMenuItem('About', 'about.php');
     $menu->addMenuItem('Photo', 'photo.php');
     $menu->addMenuItem('Contact us', 'contact.php');
-    $menu->addMenuItem('Login', 'login.php');
+    $menu->addMenuItem('Login', 'register.php');
 
     $menu->printMenu('600px', '50px', 'blue', 'lightblue');
