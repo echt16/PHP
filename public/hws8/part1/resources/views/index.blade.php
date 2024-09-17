@@ -20,9 +20,12 @@
         <div class="list-group">
             @foreach($news as $item)
                 <a href="view?id={{$item->id}}" class="list-group-item list-group-item-action">
-                    <h5 class="mb-1">{{ $item->summary }}</h5>
-                    <p class="mb-1">{{ $item->short_description }}</p>
+                    <div style="display: flex; flex:1;">
+                        <h5 class="mb-1">{{ $item->summary }}</h5>
+                        <p class="mb-1">{{ $item->short_description }}</p>
+                    </div>
                 </a>
+                <a href="editNew?id={{$item->id}}" class="btn btn-success">Edit</a>
             @endforeach
         </div>
     @endif

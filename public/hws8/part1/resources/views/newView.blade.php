@@ -16,6 +16,9 @@
 <body>
 <div class="container mt-5">
     <h1>{{$new->summary}}</h1>
+    @if(isset($new->image_path))
+        <img style="max-width: 50%; max-height: 300px" src="{{asset('storage/'.$new->image_path)}}"/>
+    @endif
     <p>{{$new->full_text}}</p>
 </div>
 </body>
